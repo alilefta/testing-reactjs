@@ -2,7 +2,7 @@ import { expect, test, vi } from "vitest";
 import axios from "axios";
 import { describe } from "node:test";
 import { UserDisplay } from "@/components/UserDisplay";
-import { render, screen } from "@testing-library/react";
+import { act, render, screen } from "@testing-library/react";
 
 vi.mock("axios");
 
@@ -31,7 +31,6 @@ describe("UserDisplay", () => {
 	test("should display an error message on failed fetch", async () => {
 		// ARRANGE: Configure the mock to fail for this test.
 		mockedAxios.mockRejectedValue(new Error("Network error"));
-
 		render(<UserDisplay userId="1" />);
 
 		// ACT: The `useEffect` will run, and the promise will be rejected.
@@ -39,5 +38,14 @@ describe("UserDisplay", () => {
 		// ASSERT: Wait for the error message to appear.
 		const errorElement = await screen.findByText(/failed to fetch user/i);
 		expect(errorElement).toBeInTheDocument();
+	});
+
+	test("UserDisplay Should be rendered at below 4ms ", () => {
+		const s = performance.now();
+
+		render(<UserDisplay userId="1" />);
+
+		const e = performance.now();
+		expect(e - s).lessThan(4);
 	});
 });
