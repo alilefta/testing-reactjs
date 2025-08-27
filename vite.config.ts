@@ -20,16 +20,22 @@ export default defineConfig({
 			"@": path.resolve(__dirname, "./src"),
 		},
 	},
+
 	test: {
+		coverage: {
+			provider: "istanbul",
+		},
 		projects: [
 			// ✅ Normal unit tests
 			{
 				extends: true,
+
 				test: {
 					name: "unit",
 					globals: true,
 					environment: "jsdom",
 					css: true,
+
 					include: ["src/**/*.test.{ts,tsx}"],
 					setupFiles: "./src/test/setup.ts",
 				},

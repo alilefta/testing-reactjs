@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1756317916100" clover="3.2.0">
+  <project timestamp="1756317916100" name="All files">
+    <metrics statements="71" coveredstatements="57" conditionals="31" coveredconditionals="24" methods="28" coveredmethods="20" elements="130" coveredelements="101" complexity="0" loc="71" ncloc="71" packages="7" files="12" classes="12"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="App.tsx" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/App.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="main.tsx" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/main.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="26" coveredstatements="24" conditionals="13" coveredconditionals="11" methods="5" coveredmethods="5"/>
+      <file name="Button.tsx" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/components/Button.tsx">
+        <metrics statements="16" coveredstatements="14" conditionals="9" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+      </file>
+      <file name="UserDisplay.tsx" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/components/UserDisplay.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Accordion">
+      <metrics statements="13" coveredstatements="11" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="6"/>
+      <file name="Accordion.tsx" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/components/Accordion/Accordion.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+      </file>
+      <file name="AccordionItem.tsx" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/components/Accordion/AccordionItem.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="24" type="stmt"/>
+        <line num="13" count="24" type="stmt"/>
+        <line num="15" count="24" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+      </file>
+      <file name="AccordionUsageExample.tsx" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/components/Accordion/AccordionUsageExample.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Accordion.accordion_context">
+      <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="AccordionContext.tsx" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/components/Accordion/accordion_context/AccordionContext.tsx">
+        <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="24" type="stmt"/>
+        <line num="13" count="24" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="24" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui">
+      <metrics statements="3" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="button.tsx" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/components/ui/button.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.customHooks">
+      <metrics statements="20" coveredstatements="17" conditionals="5" coveredconditionals="4" methods="12" coveredmethods="8"/>
+      <file name="useCounter.ts" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/customHooks/useCounter.ts">
+        <metrics statements="12" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="8" coveredmethods="4"/>
+        <line num="17" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+      </file>
+      <file name="useDebounce.ts" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/customHooks/useDebounce.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="3" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.lib">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="utils.ts" path="F:/Software_Engineering/Phase 1 Web Development/Project 7 Freelancer Command Center/React_Fundamentals/testing_react/src/lib/utils.ts">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
